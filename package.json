@@ -1,0 +1,27 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "CRUD, Nodejs, Express, MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhatBen234/ToDoApp.git"
+  },
+  "author": "Ben",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhatBen234/ToDoApp/issues"
+  },
+  "homepage": "https://github.com/PhatBen234/ToDoApp#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.5",
+    "nodemon": "^3.1.0"
+  }
+}
